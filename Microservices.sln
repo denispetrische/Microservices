@@ -5,7 +5,17 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformService", "PlatformService\PlatformService.csproj", "{AAD40035-EFCF-4933-A1D7-C3B29D7DFA5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandsService", "CommandsService\CommandsService.csproj", "{ECEF5286-A1A6-4EAE-B106-32A2B830036A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandsService", "CommandsService\CommandsService.csproj", "{ECEF5286-A1A6-4EAE-B106-32A2B830036A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8S", "K8S", "{60E15E97-B78D-4F4C-A9C7-8B965B752B1D}"
+	ProjectSection(SolutionItems) = preProject
+		K8S\commands-depl.yaml = K8S\commands-depl.yaml
+		K8S\ingress-srv.yaml = K8S\ingress-srv.yaml
+		K8S\local-pvc.yaml = K8S\local-pvc.yaml
+		K8S\mssql-plat-depl.yaml = K8S\mssql-plat-depl.yaml
+		K8S\platforms-depl.yaml = K8S\platforms-depl.yaml
+		K8S\platforms-np-srv.yaml = K8S\platforms-np-srv.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,12 +5,6 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformService", "PlatformService\PlatformService.csproj", "{AAD40035-EFCF-4933-A1D7-C3B29D7DFA5B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8S", "K8S", "{D238E323-8B55-45B9-86B6-34CFF8D65A85}"
-	ProjectSection(SolutionItems) = preProject
-		platforms-np-srv.yaml = platforms-np-srv.yaml
-		platformsdepl.yaml = platformsdepl.yaml
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandsService", "CommandsService\CommandsService.csproj", "{ECEF5286-A1A6-4EAE-B106-32A2B830036A}"
 EndProject
 Global
